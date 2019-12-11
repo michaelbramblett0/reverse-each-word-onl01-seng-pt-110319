@@ -4,4 +4,5 @@ sentence1 = "Hello there, and how are you?"
   memo = ''
   sentence1.split.each { |joined_array| memo << "#{joined_array.reverse}" }
   end
+  arr
 end
