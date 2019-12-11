@@ -4,7 +4,7 @@ sentence1 = "Hello there, and how are you?"
   memo = ''
   sentence1.split.each { |joined_array| memo << "#{joined_array.reverse}" }
   end
-end
+
 
 def first_method_reverse_each_word(array)
   nuarray = []
